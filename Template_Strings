@@ -5,7 +5,7 @@ const result = {
 };
 function makeList(arr) {
   // Only change code below this line
-  const failureItems = arr.map(item => [`<li class="text-warning">${item}</li>`]);
+  const failureItems = arr.map(item => `<li class="text-warning">${item}</li>`);
   // Only change code above this line
 
   return failureItems;
